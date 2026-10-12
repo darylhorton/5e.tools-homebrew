@@ -1,0 +1,96 @@
+{
+  "item": [
+    {
+      "name": "Brooch of Cloaked Shadows",
+      "source": "WotFS",
+      "page": 1,
+      "type": "OTH",
+      "wondrous": true,
+      "rarity": "uncommon",
+      "value": 35000,
+      "weight": 1,
+      "reqAttune": "(requires attunement)",
+      "charges": 3,
+      "recharge": "dusk",
+      "rechargeAmount": "all",
+      "entries": [
+        "This smooth, polished obsidian brooch resembles a heavy, closed eye. When its power is invoked, the eye cracks open, revealing a miniature void within.",
+        {
+          "type": "entries",
+          "name": "Shadow Casting",
+          "entries": [
+            "The brooch has 3 charges and regains all expended charges daily at dusk. While wearing it, you can utilize the Magic action to expend 1 charge to cast the darkness spell from it."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "The Velvet Clasp",
+          "entries": [
+            "As a bonus action, you can flip an attached velvet cowl over the face of the brooch. This completely covers the obsidian eye fully blocking the emanation of Darkness suppressing the effect. As a bonus action, you can flip the cowl back open to resume the effect, provided the spell's 10-minute duration hasn't expired."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kagenui",
+      "source": "WotFS",
+      "page": 1,
+      "type": "M",
+      "weaponCategory": "martial",
+      "rarity": "rare",
+      "weight": 2,
+      "reqAttune": true,
+      "bonusWeapon": "+1",
+      "charges": 3,
+      "recharge": "dawn",
+      "rechargeAmount": "all",
+      "property": [
+        "F"
+      ],
+      "dmg1": "1d8",
+      "dmgType": "P",
+      "dmg2": "1d8",
+      "dmgType2": "S",
+      "entries": [
+        "This elegantly slender, blackened blade reflects no light and exudes a shadowy aura.",
+        "1d8 Piercing Damage or 1d8 Slashing Damage (declare on attack roll)",
+        "You gain a +1 bonus to attack and damage rolls made with this magic weapon. While holding this weapon, you have advantage on Dexterity (Stealth) checks.",
+        {
+          "type": "entries",
+          "name": "Shadow-Stitch",
+          "entries": [
+            "This weapon has 3 charges, and it regains all expended charges daily at dawn. As a Magic action while holding Kagenui, you can expend 1 charge to target the shadow of a creature you can see within 30 feet. The target must succeed on a DC 15 Strength saving throw or be Restrained for 1 minute as its shadow is pinned to the floor. A creature restrained this way can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mastery: Vex",
+          "entries": [
+            "If you hit a creature with this weapon and deal piercing damage to the creature, you have Advantage on your next attack roll against that creature before the end of your next turn."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Mastery: Sap",
+          "entries": [
+            "If you hit a creature with this weapon and deal slashing damage to the creature, that creature has Disadvantage on its next attack roll before the start of your next turn."
+          ]
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "sources": [
+      {
+        "json": "WotFS",
+        "abbreviation": "WotFS",
+        "full": "Wrath of the Fallen Star",
+        "authors": [
+          "Daryl Horton"
+        ],
+        "color": "5a2d82",
+        "version": "1.0"
+      }
+    ]
+  }
+}
